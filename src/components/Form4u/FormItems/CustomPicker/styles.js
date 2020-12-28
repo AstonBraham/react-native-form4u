@@ -14,7 +14,7 @@ export const StyledPicker = styled(Picker).attrs((props) => ({
   note: true,
   mode: 'dropdown',
   placeholderIconColor: props.placeholderIconColor ? props.placeholderIconColor : '#007aff',
-  iosIcon: <Icon size={20} color="#bfc6ea" name="ios-arrow-dropdown" />,
+  iosIcon: <Icon size={20} color="#bfc6ea" name="arrow-down-circle-sharp" />,
   placeholderStyle: {
     color: '#bfc6e9',
     maxWidth: '100%',
